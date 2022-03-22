@@ -3,6 +3,9 @@ spring:
   application:
     name: spring-boot-task-scheduler
 
+server:
+  port: 8085
+
 # PushGateway
 management:
   metrics:
@@ -16,3 +19,5 @@ management:
     web:
       exposure:
         include: prometheus
+
+#MANAGEMENT_METRICS_EXPORT_PROMETHEUS_PUSHGATEWAY_BASE-URL='host.docker.internal:9091'

@@ -24,7 +24,7 @@ jib {
 		image = 'amazoncorretto:11-alpine-jdk'
 	}
 	to {
-		image = 'royalespn/springboottaskscheduler:001'
+		image = 'royalespn/springboottaskscheduler:latest'
 	}
 }
 

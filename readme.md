@@ -6,3 +6,4 @@ docker run --rm \
 royalespn/springboottaskscheduler:latest
 
 --
+make sure pushGateway service is running as well :)
